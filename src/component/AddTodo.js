@@ -39,7 +39,7 @@ class AddTodo extends Component {
     if (exists) {
       return;
     }
-
+// for commit
     const todo = {
       id: Math.random(),
       content: content,
