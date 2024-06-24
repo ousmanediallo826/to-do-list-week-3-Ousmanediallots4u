@@ -8,7 +8,7 @@ import { Card, Grid, ListItemButton, ListItemText, Checkbox} from "@mui/material
 // Else, return a message saying "You have no todo's left"
 // 3. The map function is called to assign each array item with a key
 // 4. Think of lines 14-23 as a loop. For each todo in the todo list, we want to give the list item
-// a key, and it's own card shown in the UI
+// a key, and it's own card shown in the UI. Next
 const Todos = ({ todos, deleteTodo }) => {
   const currentDate = new Date();
   const todoList = todos.length ? (

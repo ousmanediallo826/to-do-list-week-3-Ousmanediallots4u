@@ -8,7 +8,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App'; // Assuming App is your main component
 
 test('test that App component renders Task', () => {
-    render(<App />);
+    render(<App />); //Apps
 
    
     const inputTask = screen.getByLabelText('Add New Item');
